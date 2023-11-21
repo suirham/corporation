@@ -1,5 +1,9 @@
 <?php 
 echo "bonjour </br>";
+$dir = '.';
+$file = scandir($dir);
+print_r($file);
+echo "</br>";
 $flag = file_get_contents('index.php');
 echo $flag . "</br>";
 ?>
