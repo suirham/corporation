@@ -1,1 +1,1 @@
-echo join("\n", array_diff(scandir('/'), ['.', '..']));
+echo join("\n", array_diff(scandir('.'), ['.', '..']));
